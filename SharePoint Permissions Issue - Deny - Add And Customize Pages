@@ -1,0 +1,17 @@
+<!--To perform the following instructions you shoud have global admin rights or farm admin-->
+
+<!-- 1) Download SharePoint online management shell -->
+
+<!-- 2)Enter the following commnand-->
+
+Connect-SPOService 
+
+<!-- 3)Enter URL of admin site-->
+
+https://<yourdomain>-admin.sharepoint.com
+
+<!-- 4) Add username and password-->
+
+Set-SPOSite -Identity https://<yourdomain>.sharepoint.com -DenyAddAndCustomizePages $false
+
+
