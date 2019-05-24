@@ -1,5 +1,7 @@
 <!--To perform the following instructions you shoud have global admin rights or farm admin-->
 
+<!--This command is necessary for  the modern view of SP0 2016-2019  , otherwise you would not be able to modify the look & feel-->
+
 <!-- 1) Download SharePoint online management shell -->
 
 <!-- 2)Enter the following commnand-->
