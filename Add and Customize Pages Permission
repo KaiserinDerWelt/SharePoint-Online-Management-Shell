@@ -1,0 +1,16 @@
+<!--1) Connect to the Sharepoint Service-->
+
+Connect-SPOService
+
+<!-- 2) Add the admin address-->
+
+https://<yourtenant>-admin.sharepoint.com
+
+<!--3)Use your password and email credentials-->
+
+
+<!-- 4) Include the name of the tenant and the name of the specific site you want to enable-->
+
+Set-SPOSite -Identity https://<yourtenant>.sharepoint.com/sites/<team-site> -DenyAddAndCustomizePages $false
+
+<!--DONE-->
