@@ -1,0 +1,14 @@
+<!-- This could be simple, but Imma write it here because I do not wanna forget it-->
+
+<!-- 1) Open Powershell-->
+<!-- 2) Go to the directory where you saved your webpart -->
+
+CD <YourDirectoryName>
+
+<!-- 3) Type the following sentence to open the SPFx Webpart in Visual Studio Code-->
+
+<!--Code,Space, Dot-->
+
+Code .
+
+<!--That¨s it, Now you can start editing the SPFx WebPart-->
