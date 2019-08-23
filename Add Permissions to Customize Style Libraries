@@ -1,0 +1,4 @@
+/*Use the following commands in the SPO PowerShell Prompt*/
+
+Connect-SPOService -url https://yoursharepointsite-admin.sharepoint.com
+Set-SPOsite https://yoursharepointsite.sharepoint.com -DenyAddAndCustomizePages 0
