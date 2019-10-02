@@ -1,0 +1,6 @@
+<!--This is an easy command to get the SharePoint Server Name throught SPO Powershell-->
+
+Get-SPServer
+   [[-Identity] <SPServerPipeBind>]
+   [-AssignmentCollection <SPAssignmentCollection>]
+   [<CommonParameters>]
